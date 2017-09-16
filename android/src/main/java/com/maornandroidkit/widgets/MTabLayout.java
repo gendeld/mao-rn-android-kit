@@ -167,6 +167,9 @@ public class MTabLayout extends TabLayout {
           );
           TextView textView = (TextView) tabView.findViewById(R.id.tab_title);
           textView.setText(tabMap.getString("text"));
+          Typeface font = Typeface.createFromAsset(getContext().getAssets(), "fonts/opensanshebrew-light.ttf");
+          textView.setRotationY(180);
+          textView.setTypeface(font);
           tab.setCustomView(tabView);
           tabView = (View) tabView.getParent();
           tabView.setOnClickListener(mTabClickListener);
