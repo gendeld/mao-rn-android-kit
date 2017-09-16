@@ -1,0 +1,77 @@
+{
+  "_from": "mao-rn-android-kit",
+  "_id": "mao-rn-android-kit@0.5.0",
+  "_inBundle": false,
+  "_integrity": "sha1-cZD7+zYi9TvTzOLqTW4G+kbbcq8=",
+  "_location": "/mao-rn-android-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mao-rn-android-kit",
+    "name": "mao-rn-android-kit",
+    "escapedName": "mao-rn-android-kit",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mao-rn-android-kit/-/mao-rn-android-kit-0.5.0.tgz",
+  "_shasum": "7190fbfb3622f53bd3cce2ea4d6e06fa46db72af",
+  "_spec": "mao-rn-android-kit",
+  "_where": "/Users/daniel/saltyapp",
+  "author": {
+    "name": "maolion.j@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/maolion/mao-rn-android-kit/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-mixins-decorator": "^0.1.18"
+  },
+  "deprecated": false,
+  "description": "为 React Native 开发 提供的一些Android原生模块/组件 (react native, CoordinatorLayout, AppBarLayout, TabLayout, NestedScrollView, PopupWindow)",
+  "devDependencies": {
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2",
+    "vts": "^5.0.1"
+  },
+  "homepage": "https://github.com/maolion/mao-rn-android-kit",
+  "keywords": [
+    "mao-rn-android-kit",
+    "react-native",
+    "react native",
+    "android",
+    "support design",
+    "AppBarLayout",
+    "NestedScrollView",
+    "CoordinatorLayout",
+    "PopupWindowAndroid",
+    "NestedScrollView",
+    "PopupWindow",
+    "Gravity",
+    "Dimensions"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "mao-rn-android-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maolion/mao-rn-android-kit.git"
+  },
+  "scripts": {
+    "build": "npm run lint && tsc --declaration",
+    "debug": "./scripts/debug.sh",
+    "deploy": "./scripts/deploy.sh",
+    "lint": "tslint -p tsconfig.json -c tslint.json --type-check",
+    "prepublishOnly": "",
+    "start": "tsc --watch",
+    "tslint": "tslint"
+  },
+  "typings": "./index.d.ts",
+  "version": "0.5.0"
+}
