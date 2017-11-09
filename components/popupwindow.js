@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+import PropTypes from 'prop-types';
 const React = require("react");
 const react_1 = require("react");
 const react_native_1 = require("react-native");
@@ -24,9 +25,9 @@ class PopupWindow extends react_1.PureComponent {
     }
 }
 PopupWindow.propTypes = Object.assign({
-    focusable: react_1.PropTypes.bool,
-    outsideTouchable: react_1.PropTypes.bool,
-    touchable: react_1.PropTypes.bool
+    focusable: PropTypes.bool,
+    outsideTouchable: PropTypes.bool,
+    touchable: PropTypes.bool
 }, types_1.ViewGroupProperties);
 exports.default = PopupWindow;
 const RCTPopupWindow = react_native_1.requireNativeComponent('MaoKitsPopupWindowAndroid', PopupWindow, {

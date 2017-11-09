@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+import PropTypes from 'prop-types';
 const React = require("react");
 const react_1 = require("react");
 const react_native_1 = require("react-native");
@@ -34,23 +35,23 @@ class CollapsingToolbarLayout extends react_1.PureComponent {
     }
 }
 CollapsingToolbarLayout.propTypes = Object.assign({
-    contentScrimColor: react_1.PropTypes.string,
-    collapsedTitleGravity: react_1.PropTypes.number,
-    collapsedTitleColor: react_1.PropTypes.string,
-    expandedTitleColor: react_1.PropTypes.string,
-    expandedTitleGravity: react_1.PropTypes.number,
-    expandedTitleMargin: react_1.PropTypes.arrayOf(react_1.PropTypes.number),
-    expandedTitleMarginStart: react_1.PropTypes.number,
-    expandedTitleMarginTop: react_1.PropTypes.number,
-    expandedTitleMarginEnd: react_1.PropTypes.number,
-    expandedTitleMarginBottom: react_1.PropTypes.number,
-    scrimAnimationDuration: react_1.PropTypes.number,
-    scrimVisibleHeightTrigger: react_1.PropTypes.number,
-    scrimsShown: react_1.PropTypes.arrayOf(react_1.PropTypes.bool),
-    scrimsShownAnimate: react_1.PropTypes.bool,
-    statusBarScrimColor: react_1.PropTypes.string,
-    title: react_1.PropTypes.string,
-    titleEnable: react_1.PropTypes.bool
+    contentScrimColor: PropTypes.string,
+    collapsedTitleGravity: PropTypes.number,
+    collapsedTitleColor: PropTypes.string,
+    expandedTitleColor: PropTypes.string,
+    expandedTitleGravity: PropTypes.number,
+    expandedTitleMargin: PropTypes.arrayOf(PropTypes.number),
+    expandedTitleMarginStart: PropTypes.number,
+    expandedTitleMarginTop: PropTypes.number,
+    expandedTitleMarginEnd: PropTypes.number,
+    expandedTitleMarginBottom: PropTypes.number,
+    scrimAnimationDuration: PropTypes.number,
+    scrimVisibleHeightTrigger: PropTypes.number,
+    scrimsShown: PropTypes.arrayOf(PropTypes.bool),
+    scrimsShownAnimate: PropTypes.bool,
+    statusBarScrimColor: PropTypes.string,
+    title: PropTypes.string,
+    titleEnable: PropTypes.bool
 }, types_1.ViewGroupProperties);
 exports.CollapsingToolbarLayout = CollapsingToolbarLayout;
 const RCTCollapsingToolbarLayout = react_native_1.requireNativeComponent('MaoKitsCollapsingToolbarLayoutAndroid', CollapsingToolbarLayout, {

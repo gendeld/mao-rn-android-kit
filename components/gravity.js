@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+import PropTypes from 'prop-types';
 const react_native_1 = require("react-native");
 const Gravity = react_native_1.NativeModules.MaoKitsGravityAndroid;
 exports.default = {

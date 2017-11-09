@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+import PropTypes from 'prop-types';
 const React = require("react");
 const react_1 = require("react");
 const react_native_1 = require("react-native");
@@ -32,19 +33,19 @@ class TabLayout extends react_1.PureComponent {
     }
 }
 TabLayout.propTypes = Object.assign({}, react_native_1.View.propTypes, {
-    tabs: react_1.PropTypes.arrayOf(react_1.PropTypes.shape({
-        text: react_1.PropTypes.string.isRequired
+    tabs: PropTypes.arrayOf(PropTypes.shape({
+        text: PropTypes.string.isRequired
     })),
-    tabTextColor: react_1.PropTypes.string,
-    tabTextSize: react_1.PropTypes.number,
-    tabSelectedTextColor: react_1.PropTypes.string,
-    tabIndicatorColor: react_1.PropTypes.string,
-    tabIndicatorHeight: react_1.PropTypes.number,
-    tabMode: react_1.PropTypes.oneOf(['scrollable', 'fixed']),
-    tabGravity: react_1.PropTypes.oneOf(['center', 'fill']),
-    tabHeight: react_1.PropTypes.number,
-    tabSidePadding: react_1.PropTypes.number,
-    activeTabStyle: react_1.PropTypes.object
+    tabTextColor: PropTypes.string,
+    tabTextSize: PropTypes.number,
+    tabSelectedTextColor: PropTypes.string,
+    tabIndicatorColor: PropTypes.string,
+    tabIndicatorHeight: PropTypes.number,
+    tabMode: PropTypes.oneOf(['scrollable', 'fixed']),
+    tabGravity: PropTypes.oneOf(['center', 'fill']),
+    tabHeight: PropTypes.number,
+    tabSidePadding: PropTypes.number,
+    activeTabStyle: PropTypes.object
 });
 exports.default = TabLayout;
 const RCTTabLayout = react_native_1.requireNativeComponent('MaoKitsTabLayoutAndroid', TabLayout, {
