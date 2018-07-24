@@ -8,7 +8,6 @@ import com.facebook.react.uimanager.ViewManager;
 import com.maornandroidkit.managers.AppBarLayoutManager;
 import com.maornandroidkit.managers.CollapsingToolbarLayoutManager;
 import com.maornandroidkit.managers.CoordinatorLayoutManager;
-import com.maornandroidkit.managers.PopupWindowManager;
 import com.maornandroidkit.managers.TabLayoutManager;
 import com.maornandroidkit.modules.ExtraDimensionsModule;
 import com.maornandroidkit.modules.GravityModule;
@@ -38,7 +37,6 @@ public class KitsPackage implements ReactPackage {
             new CoordinatorLayoutManager(),
             new AppBarLayoutManager(),
             new TabLayoutManager(),
-            new PopupWindowManager(),
             new CollapsingToolbarLayoutManager()
     );
   }

@@ -4,7 +4,6 @@ import CoordinatorLayoutAndroid from './components/coordinator-layout';
 import * as ExtraDimensionsAndroid from './components/extra-dimensions';
 import GravityAndroid from './components/gravity';
 import LayoutParamsAndroid from './components/layout-params';
-import PopupWindowAndroid from './components/popupwindow';
 import TabLayoutAndroid from './components/tab-layout';
 import * as Types from './components/types';
-export { PopupWindowAndroid, AppBarLayoutAndroid, CollapsingToolbarLayoutAndroid, CoordinatorLayoutAndroid, LayoutParamsAndroid, NestedScrollViewAndroid, TabLayoutAndroid, ExtraDimensionsAndroid, GravityAndroid, Types };
+export { AppBarLayoutAndroid, CollapsingToolbarLayoutAndroid, CoordinatorLayoutAndroid, LayoutParamsAndroid, NestedScrollViewAndroid, TabLayoutAndroid, ExtraDimensionsAndroid, GravityAndroid, Types };
